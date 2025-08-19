@@ -1,0 +1,43 @@
+name: AGEStormer
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - _libgcc_mutex
+  - _openmp_mutex
+  - ca-certificates
+  - certifi
+  - ld_impl_linux-64
+  - libffi
+  - libgcc-ng
+  - libgomp
+  - libstdcxx-ng
+  - ncurses
+  - openssl
+  - pip
+  - python=3.8
+  - readline
+  - setuptools
+  - sqlite
+  - tk
+  - wheel
+  - xz
+  - zlib
+  - pip:
+    - addict
+    - dataclasses
+    - mmcv-full
+    - numpy
+    - opencv-python
+    - perceptual
+    - pillow
+    - scikit-image
+    - scipy
+    - tifffile
+    - timm
+    - torch>=1.9.0
+    - torchvision
+    - typing-extensions
+    - yapf
+prefix: /home/jeyamariajose/anaconda3/envs/AGEStormer
+
